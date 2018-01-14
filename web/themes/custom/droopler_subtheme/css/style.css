@@ -13548,12 +13548,12 @@ header .region-primary-menu .navbar {
   padding: 0.5rem 0;
 }
 
-header .region-primary-menu #block-mainnavigation, header .region-primary-menu #block-languageswitcher {
+header .region-primary-menu #block-mainnavigation, header .region-primary-menu #block-languageswitcher, header .region-primary-menu #block-mainnavigationpl {
   display: inline-block;
 }
 
 @media (max-width: 991px) {
-  header .region-primary-menu #block-mainnavigation, header .region-primary-menu #block-languageswitcher {
+  header .region-primary-menu #block-mainnavigation, header .region-primary-menu #block-languageswitcher, header .region-primary-menu #block-mainnavigationpl {
     display: block;
   }
 }

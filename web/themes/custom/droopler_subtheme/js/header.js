@@ -7,9 +7,9 @@
       // Fixed menu.
       var isFront = $('body').hasClass('path-frontpage');
       var isGallery = $('body').hasClass('path-galleries');
-      var $nav = $('header');
-      var $navContainer = $('header .container');
-      var $navItem = $('header .container .navbar-nav .nav-item a');
+      var $nav = $('header#header');
+      var $navContainer = $('header#header .container');
+      var $navItem = $('header#header .container .navbar-nav .nav-item a');
 
       if (isFront || isGallery) {
         $nav.removeClass('menu-relative');

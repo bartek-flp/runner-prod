@@ -13421,6 +13421,13 @@ footer .region-footer-main .block {
   font-size: 14px;
 }
 
+.view-guests .view-header {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 50px;
+}
+
 .view-sponsors {
   width: 75%;
   margin: 0 auto;
@@ -13446,6 +13453,13 @@ footer .region-footer-main .block {
 .view-sponsors .views-row .views-field-field-gosc-opis {
   text-transform: uppercase;
   font-size: 14px;
+}
+
+.view-sponsors .view-header {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 50px;
 }
 
 .paragraph--type--views-reference .viewsreference--view-title {
@@ -13674,6 +13688,12 @@ header .container.small, header .small.alert, header .small.footer-droopler {
   color: white;
 }
 
+#block-socialicons {
+  position: absolute;
+  right: -120px;
+  top: 34px;
+}
+
 .d-p-side-image-banner h2 {
   margin-top: 40px;
 }
@@ -13686,6 +13706,10 @@ header .container.small, header .small.alert, header .small.footer-droopler {
   width: 100%;
   padding-top: 13.5%;
   padding-bottom: 14.5%;
+}
+
+.node--type-aktualnosci .main-content {
+  margin-top: 150px;
 }
 
 /*# sourceMappingURL=maps/style.css.map */

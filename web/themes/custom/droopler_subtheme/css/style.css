@@ -13730,6 +13730,7 @@ header .container.small, header .small.alert, header .small.footer-droopler {
   padding-bottom: 14.5%;
 }
 
+.path-aktualnosci .main-content,
 .path-news .main-content,
 .node--type-aktualnosci .main-content {
   margin-top: 150px;

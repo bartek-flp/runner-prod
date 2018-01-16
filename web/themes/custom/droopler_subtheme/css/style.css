@@ -13473,7 +13473,14 @@ footer .region-footer-main .block {
   margin-top: 50px;
 }
 
+.view-galleries .view-content {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .view-galleries .view-content .views-row {
+  width: 50%;
+  float: left;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -13489,6 +13496,12 @@ Styleguide
 */
 .paragraph--type--d-p-main-slider {
   position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .paragraph--type--d-p-main-slider {
+    display: none;
+  }
 }
 
 .slider-content .slider-images {
@@ -13685,13 +13698,22 @@ header .container.small, header .small.alert, header .small.footer-droopler {
 }
 
 .block-language.dropdown .dropdown-toggle {
-  color: white;
+  color: black;
+}
+
+.block-language.dropdown .dropdown-toggle::after {
+  color: black;
 }
 
 #block-socialicons {
   position: absolute;
   right: -120px;
   top: 34px;
+}
+
+#block-socialicons img {
+  height: 24px;
+  width: 24px;
 }
 
 .d-p-side-image-banner h2 {
@@ -13708,8 +13730,28 @@ header .container.small, header .small.alert, header .small.footer-droopler {
   padding-bottom: 14.5%;
 }
 
+.path-news .main-content,
 .node--type-aktualnosci .main-content {
   margin-top: 150px;
+}
+
+.view-aktualnosci .view-content .views-row {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.view-aktualnosci .view-content .views-row .views-field-title {
+  font-size: 25px;
+}
+
+.view-aktualnosci .view-content .views-row .views-field-title a {
+  color: #4c4c4c;
+}
+
+.view-aktualnosci .view-content .views-row .views-field-title a:hover {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=maps/style.css.map */

@@ -13411,12 +13411,14 @@ footer .region-footer-main .block {
 @media screen and (max-width: 1200px) {
   .view-guests .views-row {
     width: 49%;
+    margin-bottom: 30px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .view-guests .views-row {
     width: 100%;
+    margin-bottom: 30px;
   }
 }
 
@@ -13457,12 +13459,14 @@ footer .region-footer-main .block {
 @media screen and (max-width: 1200px) {
   .view-sponsors .views-row {
     width: 49%;
+    margin-bottom: 30px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .view-sponsors .views-row {
     width: 100%;
+    margin-bottom: 30px;
   }
 }
 
@@ -13491,6 +13495,12 @@ footer .region-footer-main .block {
   font-size: 40px;
   text-transform: uppercase;
   margin: 40px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .fb-page {
+    display: none !important;
+  }
 }
 
 .view-galleries {
@@ -13781,6 +13791,19 @@ header .container.small, header .small.alert, header .small.footer-droopler {
   position: absolute;
   right: -120px;
   top: 34px;
+}
+
+@media screen and (max-width: 1400px) {
+  #block-socialicons {
+    top: -7px;
+    right: 28px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #block-socialicons {
+    display: none;
+  }
 }
 
 #block-socialicons img {

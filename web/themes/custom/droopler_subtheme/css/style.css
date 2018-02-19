@@ -14810,12 +14810,12 @@ header.menu-relative, header.menu-fixed {
 
 header.menu-relative .navbar-nav .nav-item a, header.menu-fixed .navbar-nav .nav-item a {
   color: white;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 1300px) {
   header.menu-relative .navbar-nav .nav-item a, header.menu-fixed .navbar-nav .nav-item a {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -14838,18 +14838,22 @@ header.large {
 
 header.large .navbar-nav .nav-item a {
   color: white;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 1300px) {
   header.large .navbar-nav .nav-item a {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
 header.large .navbar-nav .nav-item a:hover {
   color: white !important;
   text-decoration: underline;
+}
+
+header.large .navbar-brand {
+  margin-bottom: 0;
 }
 
 header.small {
@@ -14860,7 +14864,7 @@ header.small {
 
 header.small .navbar-nav .nav-item a {
   color: black;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 header.small .navbar-nav .nav-item a:hover {
@@ -14868,34 +14872,38 @@ header.small .navbar-nav .nav-item a:hover {
   text-decoration: underline;
 }
 
+header.small .navbar-brand {
+  margin-bottom: 20px;
+}
+
 header .navbar-nav .nav-item a {
   color: white;
-  font-size: 23px;
-}
-
-@media screen and (max-width: 1300px) {
-  header .navbar-nav .nav-item a {
-    font-size: 15px;
-  }
-}
-
-header .navbar-nav .nav-item a.small {
   font-size: 20px;
 }
 
 @media screen and (max-width: 1300px) {
+  header .navbar-nav .nav-item a {
+    font-size: 13px;
+  }
+}
+
+header .navbar-nav .nav-item a.small {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1300px) {
   header .navbar-nav .nav-item a.small {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
 header .navbar-nav .nav-item a.large {
-  font-size: 23px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 1300px) {
   header .navbar-nav .nav-item a.large {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -14938,8 +14946,8 @@ header .container.small, header .small.alert, header .small.footer-droopler {
 
 #block-socialicons {
   position: absolute;
-  right: -120px;
-  top: 34px;
+  right: 36px;
+  top: 0;
 }
 
 @media screen and (max-width: 1400px) {

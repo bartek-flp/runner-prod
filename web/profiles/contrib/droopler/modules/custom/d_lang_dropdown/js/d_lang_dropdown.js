@@ -24,7 +24,7 @@
         $languageswitcher.attr("aria-labelledby", "dropdownMenuLink");
         $languageswitcher.find(".links").addClass("dropdown-menu");
         $languageswitcher.find(".links")
-          .prepend("<li>" + $active_lang.first().text() + "</li>");
+          .prepend("<li>Select</li>");
         $languageswitcher.addClass("dropdown");
         $body.addClass("d-lang-added")
       });

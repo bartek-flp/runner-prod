@@ -14750,6 +14750,10 @@ header {
   -o-transition: .7s all;
 }
 
+header .navbar {
+  padding: 20px 1rem;
+}
+
 header .site-logo img {
   max-width: 100%;
   max-height: 85px;
@@ -14826,7 +14830,7 @@ header.menu-relative {
 }
 
 header.large {
-  height: 133px;
+  height: 150px;
   background: rgba(0, 0, 0, 0.2);
 }
 
@@ -14857,7 +14861,7 @@ header.large .navbar-brand {
 }
 
 header.small {
-  height: 88px;
+  height: 130px;
   background: #FFF;
   border-bottom: 1px solid #000;
 }
@@ -14913,7 +14917,7 @@ header .navbar-nav .nav-item a:hover {
 }
 
 header .container.large, header .large.alert, header .large.footer-droopler {
-  height: 133px;
+  height: 150px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -14947,7 +14951,7 @@ header .container.small, header .small.alert, header .small.footer-droopler {
 #block-socialicons {
   position: absolute;
   right: 36px;
-  top: 0;
+  top: -10px;
 }
 
 @media screen and (max-width: 1400px) {
@@ -14984,6 +14988,10 @@ header .container.small, header .small.alert, header .small.footer-droopler {
 
 .d-p-text-with-bckg h2 {
   color: white;
+}
+
+.paragraph--type--d-p-text-paged {
+  margin-top: 30px;
 }
 
 .path-aktualnosci .main-content,

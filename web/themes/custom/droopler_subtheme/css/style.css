@@ -15033,4 +15033,8 @@ footer .site-footer__top .region {
   }
 }
 
+footer .site-footer .block {
+  border: none;
+}
+
 /*# sourceMappingURL=maps/style.css.map */

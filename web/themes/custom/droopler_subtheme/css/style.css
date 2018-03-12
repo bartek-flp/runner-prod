@@ -15023,4 +15023,14 @@ footer .region-footer-main .block {
   text-align: left;
 }
 
+footer .site-footer__top .region {
+  width: 49%;
+}
+
+@media screen and (max-width: 850px) {
+  footer .site-footer__top .region {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=maps/style.css.map */

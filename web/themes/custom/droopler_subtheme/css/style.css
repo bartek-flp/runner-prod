@@ -14936,6 +14936,11 @@ header .container.small, header .small.alert, header .small.footer-droopler {
   }
 }
 
+header .dropdown-menu li.dropdown ul.dropdown-menu {
+  margin-left: -159px;
+  margin-top: -47px;
+}
+
 #block-icons .content {
   float: right;
 }

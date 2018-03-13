@@ -30,6 +30,17 @@
         // We don't manipulate on default "show" class here.
         // Using additional class prevents mobile bugs.
         $(this).addClass("force-show");
+        $(this).children(".dropdown-menu").addClass("force-show");
+      }, function() {
+        // On hover out remove also default "show" class.
+        $(this).removeClass("force-show").removeClass("show");
+        $(this).children(".dropdown-menu").removeClass("force-show").removeClass("show");
+      });
+
+      $(".language-switcher-language-url").hover(function() {
+        // We don't manipulate on default "show" class here.
+        // Using additional class prevents mobile bugs.
+        $(this).addClass("force-show");
         $(this).find(".dropdown-menu").addClass("force-show");
       }, function() {
         // On hover out remove also default "show" class.

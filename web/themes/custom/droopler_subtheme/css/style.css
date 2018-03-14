@@ -14808,7 +14808,7 @@ header .navbar-brand {
 
 header.menu-relative, header.menu-fixed {
   position: fixed;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
 
@@ -14819,24 +14819,24 @@ header.menu-relative .navbar-nav .nav-item a, header.menu-fixed .navbar-nav .nav
 
 @media screen and (max-width: 1300px) {
   header.menu-relative .navbar-nav .nav-item a, header.menu-fixed .navbar-nav .nav-item a {
-    font-size: 13px;
+    font-size: 17px;
   }
 }
 
 header.menu-relative {
   position: fixed;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
 
 header.large {
   height: 150px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 @media screen and (max-width: 1300px) {
   header.large {
-    height: 80px;
+    height: 160px;
   }
 }
 
@@ -14847,7 +14847,7 @@ header.large .navbar-nav .nav-item a {
 
 @media screen and (max-width: 1300px) {
   header.large .navbar-nav .nav-item a {
-    font-size: 13px;
+    font-size: 17px;
   }
 }
 
@@ -14868,7 +14868,7 @@ header.small {
 
 header.small .navbar-nav .nav-item a {
   color: black;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 header.small .navbar-nav .nav-item a:hover {
@@ -14887,7 +14887,7 @@ header .navbar-nav .nav-item a {
 
 @media screen and (max-width: 1300px) {
   header .navbar-nav .nav-item a {
-    font-size: 13px;
+    font-size: 17px;
   }
 }
 
@@ -14897,7 +14897,7 @@ header .navbar-nav .nav-item a.small {
 
 @media screen and (max-width: 1300px) {
   header .navbar-nav .nav-item a.small {
-    font-size: 13px;
+    font-size: 17px;
   }
 }
 
@@ -14907,7 +14907,7 @@ header .navbar-nav .nav-item a.large {
 
 @media screen and (max-width: 1300px) {
   header .navbar-nav .nav-item a.large {
-    font-size: 13px;
+    font-size: 17px;
   }
 }
 
@@ -14922,7 +14922,7 @@ header .container.large, header .large.alert, header .large.footer-droopler {
 
 @media screen and (max-width: 1300px) {
   header .container.large, header .large.alert, header .large.footer-droopler {
-    height: 80px;
+    height: 160px;
   }
 }
 
@@ -14932,13 +14932,52 @@ header .container.small, header .small.alert, header .small.footer-droopler {
 
 @media screen and (max-width: 1300px) {
   header .container.small, header .small.alert, header .small.footer-droopler {
-    height: 60px;
+    height: 120px;
   }
 }
 
 header .dropdown-menu li.dropdown ul.dropdown-menu {
   margin-left: -159px;
   margin-top: -47px;
+}
+
+@media (min-width: 1401px) and (max-width: 1800px) {
+  header nav.navbar nav.navbar {
+    width: 73%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  header nav.navbar nav.navbar {
+    width: 69%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+  header nav.navbar nav.navbar {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1800px) {
+  header nav.navbar nav.navbar ul li a.nav-link {
+    line-height: 0;
+    height: 55px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  header nav.navbar nav.navbar ul li a.nav-link {
+    line-height: 0;
+    height: 45px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+  header nav.navbar nav.navbar ul li a.nav-link {
+    line-height: 0;
+    height: 45px;
+  }
 }
 
 #block-icons .content {

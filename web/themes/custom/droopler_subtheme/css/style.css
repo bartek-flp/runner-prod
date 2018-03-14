@@ -14980,6 +14980,17 @@ header .dropdown-menu li.dropdown ul.dropdown-menu {
   }
 }
 
+@media (max-width: 1800px) {
+  header nav.navbar nav.navbar ul li a.menu-dropdown-icon {
+    line-height: 30px;
+    top: 10px;
+    padding: 0;
+    left: -35px;
+    right: 0;
+    width: initial;
+  }
+}
+
 #block-icons .content {
   float: right;
 }

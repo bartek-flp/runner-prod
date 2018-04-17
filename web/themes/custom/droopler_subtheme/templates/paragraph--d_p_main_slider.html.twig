@@ -52,8 +52,16 @@
         <div class="slider-content">
           <div class="slider-images">{{ content.field_d_main_slider_images }}</div>
           <div class="slider-texts">
-            {{ content.field_d_main_slider_text }}
-            <h3>{{ content.field_d_main_slider_desc }}</h3>
+              {% if content.field_d_main_slider_text[0] is not empty %}
+                  {{ content.field_d_main_slider_text }}
+              {% else %}
+                  <h2>&nbsp</h2>
+              {% endif %}
+              {% if content.field_d_main_slider_desc[0] is not empty %}
+                  <h3>{{ content.field_d_main_slider_desc }}</h3>
+              {% else %}
+                  <h3>&nbsp</h3>
+              {% endif %}
             <div class="btn btn-primary">{{ content.field_d_main_slider_link }}</div>
           </div>
         </div>

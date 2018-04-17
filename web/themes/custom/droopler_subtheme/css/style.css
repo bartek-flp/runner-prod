@@ -15052,7 +15052,7 @@ header .dropdown-menu li.dropdown ul.dropdown-menu {
 .path-aktualnosci .main-content,
 .path-news .main-content,
 .node--type-aktualnosci .main-content {
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 .view-aktualnosci .view-content .views-row {
@@ -15072,6 +15072,10 @@ header .dropdown-menu li.dropdown ul.dropdown-menu {
 
 .view-aktualnosci .view-content .views-row .views-field-title a:hover {
   text-decoration: none;
+}
+
+.view-aktualnosci.view-display-id-block_1 .views-row {
+  width: 100%;
 }
 
 footer .region-footer-main .block {

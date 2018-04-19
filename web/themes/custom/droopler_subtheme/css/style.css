@@ -15096,6 +15096,7 @@ footer.site-footer .block {
   border: none;
 }
 
+footer #block-stopka a,
 footer #block-fastmenu a {
   color: white;
 }

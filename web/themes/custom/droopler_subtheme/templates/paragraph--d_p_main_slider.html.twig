@@ -52,12 +52,12 @@
         <div class="slider-content">
           <div class="slider-images">{{ content.field_d_main_slider_images }}</div>
           <div class="slider-texts">
-              {% if content.field_d_main_slider_text[0] is not empty %}
+              {% if content.field_d_main_slider_text|render %}
                   {{ content.field_d_main_slider_text }}
               {% else %}
                   <h2>&nbsp</h2>
               {% endif %}
-              {% if content.field_d_main_slider_desc[0] is not empty %}
+              {% if content.field_d_main_slider_desc|render %}
                   <h3>{{ content.field_d_main_slider_desc }}</h3>
               {% else %}
                   <h3>&nbsp</h3>

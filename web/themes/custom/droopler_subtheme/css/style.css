@@ -15096,4 +15096,8 @@ footer.site-footer .block {
   border: none;
 }
 
+footer #block-fastmenu a {
+  color: white;
+}
+
 /*# sourceMappingURL=maps/style.css.map */

@@ -726,15 +726,20 @@ if (file_exists(__DIR__ . '/settings.local.php')) {
    include __DIR__ . '/settings.local.php';
 }
 
+if (isset($GLOBALS['request']) && '/web/index.php' === 
+$GLOBALS['request']->server->get('SCRIPT_NAME')) {
+  $GLOBALS['request']->server->set('SCRIPT_NAME', '/index.php');
+}
+
 $settings['file_public_path'] = 'sites/default/files';
 $settings['file_private_path'] = 'sites/default/private';
 
 $databases['default']['default'] = array (
-  'database' => 'db',
-  'username' => 'user',
-  'password' => 'pass',
+  'database' => 'm14650_festival',
+  'username' => 'm14650_festival',
+  'password' => 'dcb.1459Vins',
   'prefix' => '',
-  'host' => 'mysql',
+  'host' => 'mysql0.mydevil.net',
   'port' => '',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
